@@ -4,6 +4,7 @@ import Korzinka from "../Components/Korzinka";
 import App from "../App";
 import Skidka from "../Components/Skidka";
 import Skidka2 from "../Components/Skidka2";
+import Skidka3 from "../Components/Skidka3";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     {
         path: "/skidka2",
         element: <Skidka2/>
+    },
+    {
+        path: "/skidka3",
+        element: <Skidka3/>
     },
     
     
